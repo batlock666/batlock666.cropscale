@@ -51,4 +51,7 @@ setup(
     install_requires=[
         "setuptools",
     ],
+    entry_points={
+        "console_scripts": ["cropscale=batlock666.cropscale.scripts:main"],
+    },
 )
